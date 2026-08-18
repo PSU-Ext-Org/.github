@@ -4,24 +4,26 @@
 
 <h1 align="center"><a href="https://psuext.max-eelabs.com">PSU-EXT</a></h1>
 
-<p align="center">
+<p>
   Programmable control, telemetry, and protection for the bench PSU you already own —<br />
   no replacement instrument required.
 </p>
 
 <p align="center">
-  <img alt="Crowd Supply" src="https://img.shields.io/badge/Crowd%20Supply-Coming%20Soon-orange" />
-  <a href="https://www.youtube.com/watch?v=-SMOoRix2fA&list=PL6ckvcoRaXGZk9XdToRmbwaO-lrsME2fA&index=6"><img alt="Demo video" src="https://img.shields.io/badge/Demo-YouTube-red" /></a>
+
 </p>
 
 <p align="center">
   <a href="https://github.com/PSU-Ext-Org/psu-ext-hardware/blob/main/LICENCE"><img alt="Hardware license" src="https://img.shields.io/badge/Hardware-CERN--OHL--S%20v2-lightgrey" /></a>
   <a href="https://github.com/PSU-Ext-Org/psu-ext-firmware/blob/main/LICENSE"><img alt="Firmware license" src="https://img.shields.io/badge/Firmware-Apache--2.0-green" /></a>
   <a href="https://github.com/PSU-Ext-Org/psu-ext-software/blob/main/LICENSE"><img alt="Software license" src="https://img.shields.io/badge/Software-Apache--2.0-green" /></a>
+  <img alt="Crowd Supply" src="https://img.shields.io/badge/Crowd%20Supply-Coming%20Soon-orange" />
+  <a href="https://www.youtube.com/watch?v=VDnC6QVCsYI"><img alt="Demo video" src="https://img.shields.io/badge/Demo-YouTube-red" /></a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PSU-Ext-Org/psu-ext-hardware/main/docs/images/psu-ext_16x9_fhd.JPG" alt="PSU-EXT prototype connected to a bench PSU and test equipment" width="640" />
+  <img src="assets/photo/psu-ext-naked-breadboard-2-16x9.JPG" alt="PSU-EXT prototype on a breadboard" width="49%" />
+  <img src="assets/photo/psu-ext-on-the-bench-latest.JPG" alt="PSU-EXT connected on the bench" width="49%" />
 </p>
 
 PSU-EXT is an inline hardware module and software stack: it sits between a
@@ -51,9 +53,6 @@ a person:
   scripted test automation, or proxies it over WebSocket to `psu-fe`, the
   React dashboard used for live telemetry and manual control.
 
-Firmware and software agree on the same command set, documented in
-[the SCPI reference](https://github.com/PSU-Ext-Org/psu-ext-firmware/blob/main/.doc/scpi-ref.md).
-
 ## Repositories
 
 | Repo | What it is | Stack | License |
@@ -63,11 +62,18 @@ Firmware and software agree on the same command set, documented in
 | [`psu-ext-software`](https://github.com/PSU-Ext-Org/psu-ext-software) | `psu-be` WebSocket proxy + PC-side script runner, and `psu-fe` operator dashboard | Java 17 / Spring Boot, Vite + React | [Apache-2.0](https://github.com/PSU-Ext-Org/psu-ext-software/blob/main/LICENSE) |
 | [`psu-ext`](https://github.com/PSU-Ext-Org/psu-ext) | Shared definitions and resources referenced across the project, plus documentation and customer-facing info | — | — |
 
+## Documentation
+- [PSU-EXT Software Quick Start](https://github.com/PSU-Ext-Org/psu-ext/blob/main/doc/software-quick-start.md).
+- [PSU-EXT Device Schematic](https://github.com/PSU-Ext-Org/psu-ext-hardware/blob/main/electronics/exports/schematic.pdf).
+- [PSU-EXT SCPI reference](https://github.com/PSU-Ext-Org/psu-ext-firmware/blob/main/.doc/scpi-ref.md).
+- [PSU-EXT Calibration](https://github.com/PSU-Ext-Org/psu-ext-firmware/blob/main/.doc/calibration.md).
+- [PSU-EXT Third-Party Devices](https://github.com/PSU-Ext-Org/psu-ext/blob/main/doc/third-party-devices.md).
+
 ## Links
 
 [Crowd Supply](https://www.crowdsupply.com/maxeelabs/psu-ext) ·
 [Project site](https://psu-ext-org.github.io) ·
-[Demo video](https://www.youtube.com/watch?v=-SMOoRix2fA&list=PL6ckvcoRaXGZk9XdToRmbwaO-lrsME2fA&index=6) ·
+[Demo video](https://www.youtube.com/watch?v=VDnC6QVCsYI) ·
 [X/Twitter](https://x.com/MaxEELabs) ·
 [LinkedIn](https://www.linkedin.com/in/pavlov-web/) ·
 [Reddit](https://reddit.com/user/Negative-Plantain443)
