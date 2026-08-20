@@ -17,7 +17,7 @@
   <a href="https://github.com/PSU-Ext-Org/psu-ext-hardware/blob/main/LICENCE"><img alt="Hardware license" src="https://img.shields.io/badge/Hardware-CERN--OHL--S%20v2-lightgrey" /></a>
   <a href="https://github.com/PSU-Ext-Org/psu-ext-firmware/blob/main/LICENSE"><img alt="Firmware license" src="https://img.shields.io/badge/Firmware-Apache--2.0-green" /></a>
   <a href="https://github.com/PSU-Ext-Org/psu-ext-software/blob/main/LICENSE"><img alt="Software license" src="https://img.shields.io/badge/Software-Apache--2.0-green" /></a>
-  <img alt="Crowd Supply" src="https://img.shields.io/badge/Crowd%20Supply-Coming%20Soon-orange" />
+  <a href="https://www.crowdsupply.com/maxeelabs/psu-ext"><img alt="Crowd Supply: Pre-Launch" src="https://img.shields.io/badge/Crowd%20Supply-Pre--Launch-green" /></a>
   <a href="https://www.youtube.com/watch?v=VDnC6QVCsYI"><img alt="Demo video" src="https://img.shields.io/badge/Demo-YouTube-red" /></a>
 </p>
 
