@@ -2,7 +2,7 @@
   <img src="assets/logo.svg" alt="" width="72" />
 </p>
 
-<h1 align="center"><a href="https://psuext.max-eelabs.com">PSU-EXT</a></h1>
+<h1 align="center"><a href="https://psuext.max-eelabs.com/?utm_source=github&utm_medium=referral&utm_campaign=psuext-github">PSU-EXT</a></h1>
 
 <p>
   Programmable control, telemetry, and protection for the bench PSU you already own —<br />
